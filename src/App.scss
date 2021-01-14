@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Yusei Magic', sans-serif;
+    background-color: rgb(59, 89, 151);
+}
+
+#app {
+    text-align: center;
+    color: #0d1720;
+}
+
+.container {
+    height: 800px;
+    background-image: url(https://cdn.suwalls.com/wallpapers/tv-shows/bazinga-the-big-bang-theory-49659-1920x1080.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome {
+ font-size: 55px;
+ background-color: rgb(255, 190, 0);
+ color: white;
+}
+
+.title {
+ font-size: 40px;
+ margin: 10px;
+ color: white;
+}
+
+.play-button {
+   margin-top: 500px;
+   background-color: rgb(255, 190, 0);
+   color: #ffffff;
+   padding: 14px 48px;
+   font-size: 20px;
+   border: none;
+   border-radius: 50px;
+   line-height: 19px;
+   cursor: pointer;
+   transition: background-color 0.2s;
+   outline: none;
+    &:hover {
+        background-color: rgb(235, 232, 82);
+    }
+}  

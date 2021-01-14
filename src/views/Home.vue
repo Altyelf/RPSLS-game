@@ -1,18 +1,19 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <div class="container">
+    <div>
+      <h1 class="welcome">yI'el!</h1>
+      <p class="title">Rock, Paper, Scissors, Lizard, Spock</p>
+    </div>
+      <router-link :to="'/game/'" >
+        <button class="play-button">
+         Play
+        </button>
+      </router-link>
   </div>
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+import { Vue } from 'vue-class-component';
 
-@Options({
-  components: {
-    HelloWorld,
-  },
-})
 export default class Home extends Vue {}
 </script>
