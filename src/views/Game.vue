@@ -46,7 +46,8 @@
       <ul class="emojis">
         <li
           class="emoji"
-          v-for="emoji in emojis" v-bind:key="emoji.name"
+          v-for="emoji in emojis"
+          v-bind:key="emoji.name"
           @click="chooseEmoji(emoji.symbol)">
           {{ emoji.symbol }}
           <span class="name">
@@ -92,6 +93,7 @@ export default defineComponent({
       userWins: 0,
     };
   },
+
   methods: {
     chooseEmoji(selection: string) {
       const computerGuess = this.emojis[Math.floor(Math.random() * this.emojis.length)];

@@ -1,8 +1,12 @@
 <template>
   <div class="container">
     <div>
-      <h1 class="welcome">yI'el!</h1>
-      <p class="title">Rock, Paper, Scissors, Lizard, Spock</p>
+      <h1 class="welcome">
+        yI'el!
+      </h1>
+      <p class="title">
+      Rock, Paper, Scissors, Lizard, Spock
+      </p>
     </div>
       <router-link :to="'/game/'" >
         <button class="play-button">
