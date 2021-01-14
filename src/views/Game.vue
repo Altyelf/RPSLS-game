@@ -14,13 +14,16 @@
       src="../assets/images/user-image.png"
       class="user-image">
     </div>
-    <h4 class="score-text">Score</h4>
+    <h4 class="score-text">
+      Score
+    </h4>
     <div class="score-box">
       <div class="inner-border">
         <div class="score-box--container">
           <h4>
             Sheldon
-            <span class="score-box--count score-box--computer">
+            <span
+            class="score-box--count score-box--computer">
               {{ computerWins }}
             </span>
           </h4>
@@ -28,7 +31,8 @@
         <div class="score-box--container">
           <h4>
             User
-            <span class="score-box--count score-box--user">
+            <span
+            class="score-box--count score-box--user">
               {{ userWins }}
             </span>
           </h4>
